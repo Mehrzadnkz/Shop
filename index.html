@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Tailwind</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
+<html lang="fa" dir="rtl">
 
-  <body class="bg-green-500">
-    <div class="border-1-red"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Scripts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="assets/js/index.js"></script>
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/styles/style.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Persian&display=swap" rel="stylesheet" />
+  <!-- Icons -->
+  <link rel="shortcut icon" href="assets/logo/Site Icon.png" type="image/x-icon" />
+  <title>Home Page</title>
+</head>
+
+<body
+  class="box-border font-serif bg-gray-300 text-2xl max-lg:bg-white max-lg:text-lg max-md:text-base max-sm:text-xsm">
+  <header class="border-2 border-red-600 w-[100%]">
+    <!-- Top Header -->
+    <div id="top-header" class="py-2 h-12 mb-7 flex justify-between mx-[10px] max-lg:h-10 max-lg:py-1">
+      <!-- Logo & Name -->
+      <div id="name-log" class="flex gap-2 items-center">
+        <img src="assets/logo/Logo.png" alt="Site Logo" class="w-8 h-8 max-sm:w-4 max-sm:h-4" />
+        <p>نام فروشگاه</p>
+      </div>
+
+      <!-- Search Box -->
+      <div id="Search" class="h-7">
+        <input type="search" name="Search-Box" id="Search-Box" placeholder="🔍جستجو"
+          class="border border-solid border-gray-800 rounded-xl w-[375px] h-7 bg-slate-200 px-2 max-lg:w-80 max-md:w-64 max-sm:hidden focus:border-0 focus:outline-offset-2 focus:outline-2 focus:outline-red-500" />
+      </div>
+
+      <!-- Empty Div -->
+      <div class="flex justify-between items-center w-64">
+        <button type="button" class="hidden max-sm:flex max-sm:justify-end max-sm:mr-64 max-sm:mt-1">🔍</button>
+        <div class="border-2 border-solid border-yellow-700 px-5 max-2xl:text-xs flex justify-center items-center">
+          <a href="">Login </a>/<a href=""> Register</a>
+        </div>
+        <div class="border-2 border-solid border-yellow-700 px-5 w-5 h-5"></div>
+        <div class="border-2 border-solid border-yellow-700 px-5 w-5 h-5"></div>
+      </div>
+    </div>
+    <!-- Bottom Header -->
+    <div id="bottem-header"
+      class="-mt-6 flex justify-around w-[90%] text-lg gap-1 mx-[5%] max-2xl:text-xl max-lg:text-lg max-md:flex-wrap max-md:text-base max-sm:w-full max-sm:mx-0">
+      <div id="1" class="flex justify-around w-[49%] max-md:w-[100%]">
+        <details class="">
+          <summary>دسته بندی</summary>
+          <summary>01</summary>
+          <summary>012</summary>
+          <summary>0123</summary>
+          <summary>01234</summary>
+          <summary>012345</summary>
+          <summary>0123456</summary>
+          <summary>01234567</summary>
+          <summary>012345678</summary>
+          <summary>0123456789</summary>
+        </details>
+        <a href="" class="block">کلاه</a>
+        <a href="" class="block">گردنبند</a>
+        <a href="" class="block">تیشرت</a>
+        <a href="" class="block">دورس</a>
+        <a href="" class="block">هودی</a>
+        <a href="" class="block">کاپشن</a>
+      </div>
+      <div id="2" class="flex justify-around w-[50%] max-md:w-[100%]">
+        <a href="" class="block">دستبند</a>
+        <a href="" class="block">ساعت</a>
+        <a href="" class="block">شلوار</a>
+        <a href="" class="block">جوراب</a>
+        <a href="" class="block">کفش</a>
+        <a href="" class="block">اکسسوری</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <div id="content" class="flex justify-between">
+    <div class="border border-solid border-green-900 w- h-24"></div>
+    <div></div>
+  </div>
+
+  <!-- Footer -->
+  <footer></footer>
+</body>
+
 </html>

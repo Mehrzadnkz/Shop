@@ -1,0 +1,14 @@
+#bottem-header {
+    font-family: "Noto Sans Old Persian", "Sans";
+}
+
+#bottem-header a {
+    transition: transform 0.5s ease, color 0.75s ease;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#bottem-header a:hover {
+    transform: scale(1.1);
+    color: #1e6cff;
+}
